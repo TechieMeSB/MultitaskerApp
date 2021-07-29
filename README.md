@@ -11,16 +11,70 @@
 </p>
 <hr>
 <h2>Overview</h2>
-<p> The repository is a collection of the lab programs in the VTU course: Mobile Application Development Laboratory(18CSMP68) in a One Application.</p>
-<p> It is an App that provides Part A and Few Part B Application in this Single App </p>
-1. Part A provides the following Applications :
-   1. Calculator App
-   1. Counter App
-   1. Wallpaper Changer App
-   1. XML and JSON Parser App
-   1. Text to Speech Converter App
-   1. Caller App
-1. Part B provides following App:
-   1. Meeting Scheduler
-   2. Media Player
+<p>* The repository is a collection of the lab programs in the VTU course: Mobile Application Development Laboratory(18CSMP68) in a One Application.</p>
+<p>* It is an App that provides Part A and Few Part B Application in this Single App </p>
+<ol>
+   <li>Part A provides the following Applications :
+         <ul>
+               <li> Calculator App </li>
+               <li> Counter App </li>
+               <li> Wallpaper Changer App </li>
+               <li> XML and JSON Parser App </li>
+               <li> Text to Speech Converter App </li>
+               <li> Caller App </li>
+         </ul>
+   </li>
+   <li>Part B provides following App:
+         <ul>
+               <li> Meeting Scheduler </li>
+               <li> Media Player </li>
+         </ul>
+   </li>
+</ol>
+<hr>
+<h2> Pre-requisites </h2>
+<p>In order to use the applications, you must have the following installed:</p>
+
+* Android Studio <br>
+* Android SDK version 29 <br>
+* JDK8 <br>
+* Emulator or can use Android Device <br>
+<hr>
+<h2>Screenshots</h2>
+<div>
+  <img src="Screenshots/im1.jpeg" width="215">
+  <img src="Screenshots/1m2.jpeg" width="215">
+  <img src="Screenshots/1m3.jpeg" width="215">
+</div>
+<br>
+<div >
+  <img src="Screenshots/1m4.jpeg" width="215">
+  <img src="Screenshots/pa.jpeg" width="215">
+  <img src="Screenshots/pb.jpeg" width="215">
+</div>
+<br>
+<p>Part A </P>
+<div > 
+  <img src="Screenshots/pa1.jpeg" width="215">
+  <img src="Screenshots/pa2.jpeg" width="215">
+  <img src="Screenshots/pa3.jpeg" width="215">
+</div>
+<br>
+<div >
+  <img src="Screenshots/pa4.jpeg" width="215">
+  <img src="Screenshots/pa5.jpeg" width="215">
+  <img src="Screenshots/pa6.jpeg" width="215">
+</div>
+<br>
+<p>Part B </P>
+<div > 
+  <img src="Screenshots/pb1.jpeg" width="215">
+  <img src="Screenshots/pb2.jpeg" width="215">
+  <img src="Screenshots/pb3.jpeg" width="215">
+</div>
+
+    
+   
+
+   
    
