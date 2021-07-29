@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/w3"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PartAActivity">
+    <TextView
+        android:id="@+id/partA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Part A"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textAlignment="center"
+
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="558dp"
+        android:padding="30dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:background="@drawable/ic_web_button"
+                android:text="Calculator App"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_web_button"
+                android:text="Counter App"
+                android:textColor="#fff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginStart="1dp"
+                android:background="@drawable/ic_web_button"
+                android:text="Wallpaper  App"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_web_button"
+                android:text="Parser App"
+                android:textColor="#fff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginStart="1dp"
+                android:background="@drawable/ic_web_button"
+                android:text="Text to speech App "
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/ic_web_button"
+                android:text="Phone Dialer App"
+                android:textColor="#fff" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

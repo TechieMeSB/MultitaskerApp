@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.srishti.multitaskerapp">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name=".PartB.MyContentProvider"
+            android:authorities="com.srishti.multitaskerapp.MyContentProvider"
+            android:enabled="true"
+            android:exported="false"></provider>
+
+        <receiver
+            android:name=".PartB.MyAlarm"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".PartB.SearchActivity" />
+        <activity android:name=".PartB.MeetingSchedulerActivity" />
+        <activity android:name=".PartB.MediaPlayerActivity" />
+        <activity android:name=".TextToSpeechActivity" />
+        <activity android:name=".CallSaveActivity" />
+
+        <service
+            android:name=".MyWallpaper"
+            android:exported="false" />
+
+        <activity android:name=".WallpaperActivity" />
+        <activity android:name=".ParserActivity" />
+        <activity android:name=".CounterActivity" />
+        <activity android:name=".CalculatorActivity" />
+        <activity android:name=".PartBActivity" />
+        <activity android:name=".PartAActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

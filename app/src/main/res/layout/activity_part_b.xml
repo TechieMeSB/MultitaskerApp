@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/w3"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PartAActivity">
+    <TextView
+        android:id="@+id/partA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Part B"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textAlignment="center"
+
+        />
+    <Button
+        android:id="@+id/bb1"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_web_button"
+        android:text="Media Player App"
+        android:layout_gravity="center"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/bb2"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/ic_web_button"
+        android:text="Meeting Scheduler App"
+        android:textColor="#fff" />
+</LinearLayout>

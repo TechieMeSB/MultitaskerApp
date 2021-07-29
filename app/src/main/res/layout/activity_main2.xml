@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/wallpaperm"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity2"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#fff"
+        android:textSize="100dp"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/butn1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Part A"
+        android:textColor="#fff"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        android:textSize="50sp">
+    </Button>
+    <Button
+        android:id="@+id/butn2"
+        android:layout_marginTop="15dp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Part B"
+        android:layout_below="@+id/butn1"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:textSize="50sp">
+    </Button>
+</RelativeLayout>
